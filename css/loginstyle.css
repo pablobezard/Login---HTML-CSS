@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/fondo.jpg) no-repeat center top;
+    background-size: cover ;
+    font-family: sans-serif;
+    height: 100vh;
+
+    }
+
+    img{
+        display: block;
+        margin: auto;
+    }
+
+    .login-box {
+        width: 320px;
+        height: 420px;
+        background: rgb(255, 255, 255) ;
+        color: rgb(102, 112, 112);
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        box-sizing: border-box;
+        padding: 70px 30px;
+        box-shadow: lightgoldenrodyellow;
+    }
+
+    .login-box .avatar{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+
+        
+        top: 70px;
+        left: calc(50px - 50px);
+    }
+
+    .login-box h1 {
+    margin: 10px;
+    padding: 0;
+    font-weight: bold ;
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    }
+
+    .login-box input {
+        width: 100%;
+       
+    }
+    
+    .login-box input[type="text"],
+    .login-box input[type="password"] {
+     border-color: rgb(214, 214, 214);
+     height: 50px;  
+     color: transparent;
+     font-size: 14px;
+     border-radius: 5px;
+     padding-left: 10px;
+    }
+
+.login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 50px;
+    background: rgb(51, 75, 153);
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 5px;
+    color: #fff;
+    }
+
+.login-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 2px;
+    color: grey;
+    display: block;
+    text-align: center;
+    margin: 10px;  
+    
+}
+
+.login-box a:hover {
+color: rgb(0, 0, 0);
+}
